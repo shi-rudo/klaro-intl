@@ -331,5 +331,14 @@ var klaroConfig = {
             purposes: ['security'],
             required: true,
         },
+        {
+            purposes: ['marketing'],
+            name: "demo-youtube",
+            contextualConsentOnly: true,
+        },
+        {
+            purposes: ['marketing'],
+            name: "demo-twitter",
+        }
     ],
 };
